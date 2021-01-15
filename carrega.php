@@ -3,7 +3,7 @@
   ini_set('max_execution_time', 0);
 
   require 'conexao.php';
-  $filename = './BASE_3_10.csv';
+  $filename = './produtos.csv';
 
   if (file_exists($filename)) {
 
